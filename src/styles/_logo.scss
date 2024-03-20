@@ -1,0 +1,62 @@
+.Logo {
+  margin-right: 94rem; /* Default margin for large screens */
+  text-decoration: none;
+  font-size: 28px; /* Default font size */
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #2E2E2E;
+  white-space: nowrap; /* Prevent text from breaking into multiple lines */
+}
+
+/* Media query for medium-sized devices */
+@media (max-width: 992px) {
+  .Logo {
+    margin-right: 5rem; /* Adjusted margin for medium-sized screens */
+    font-size: 24px; /* Adjusted font size for medium-sized screens */
+  }
+}
+
+/* Media query for small-sized devices */
+@media (max-width: 768px) {
+  .Logo {
+    margin-right: 3rem; /* Adjusted margin for small-sized screens */
+    font-size: 20px; /* Adjusted font size for small-sized screens */
+  }
+}
+
+/* Media query for extra small-sized devices */
+@media (max-width: 576px) {
+  .Logo {
+    margin-right: 2rem; /* Adjusted margin for extra small-sized screens */
+    font-size: 18px; /* Adjusted font size for extra small-sized screens */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .Logo {
+    margin-right: 1rem; /* Adjusted margin for mobile screens */
+    font-size: 16px; /* Adjusted font size for mobile screens */
+  }
+}
+
+/* Media query for low-sized devices */
+@media (max-width: 390px) {
+  .Logo {
+    margin-right: 0.5rem; /* Adjusted margin for low-sized screens */
+    font-size: 14px; /* Adjusted font size for low-sized screens */
+  }
+}
+
+/* Media query for very low-sized devices */
+@media (max-width: 320px) {
+  .Logo {
+    margin-right: 0; /* Adjusted margin for very low-sized screens */
+    font-size: 12px; /* Adjusted font size for very low-sized screens */
+  }
+}
+@media screen and (min-width: 1025px) {
+  .Logo {
+    font-size: 28px; /* Default font size for larger screens */
+  }
+}
