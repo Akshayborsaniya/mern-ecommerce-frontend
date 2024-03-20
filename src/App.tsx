@@ -62,7 +62,7 @@ useEffect(() => {
     }else dispatch(userNotExist());
 
   });
-  }, []);
+  }, [dispatch]);
 
   return loading ? <Loader /> : (
     <Router>
